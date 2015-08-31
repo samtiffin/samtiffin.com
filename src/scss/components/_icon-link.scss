@@ -1,0 +1,26 @@
+.icon-link {
+    display: block;
+    height: 40px;
+    width: 40px;
+
+    svg {
+        transition: fill .1s ease-out;
+        fill: #333;
+    }
+}
+
+.icon-link--github:hover svg {
+    fill: #4078C0;
+}
+
+.icon-link--bitbucket:hover svg {
+    fill: #205081;
+}
+
+.icon-link--twitter:hover svg {
+    fill: #00aced;
+}
+
+.icon-link--linkedin:hover svg {
+    fill: #0077b5;
+}
